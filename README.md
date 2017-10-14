@@ -52,7 +52,10 @@ img2ply.convert(
 ```
 
 ## Test
-Running the tests/convert.py file will loop over all of the images in the tests/images directory and create a pumpkin.ply file.
+Test conversion can be done by running the following code, it will loop over all of the images in the images directory and create a pumpkin.ply file.
+    
+    cd img2ply/tests
+    python convert.py
 
 ![alt text](https://github.com/robertjoosten/img2ply/raw/master/data/pumpkin.png "Pumpkin")
 
