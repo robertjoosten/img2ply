@@ -260,7 +260,6 @@ def convert(
     print divider()
     print "Images Found:    {0}".format(length)
     
-
     # get mapper data
     wI, hI, dI = mapper
     wB, hB, dB = bb[wI], bb[hI], bb[dI]
@@ -289,7 +288,7 @@ def convert(
                 hSamples,
                 maintainAspectRatio
             )
-
+            
             # process data
             for pos, colour in data:
                 # map position in 3 dimensions
@@ -410,5 +409,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-#img2ply D:\Documents\visible_human_male_hq_processed --ply D:\Documents\convertTest\test.ply --boundingBox 75 45 190 --widthSamples 100 --depthInverse True --depthDirection "z"
