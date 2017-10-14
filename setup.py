@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-from codecs import open
 
 VERSION = "0.1.0"
 REQUIRES = ["Pillow"]
@@ -17,7 +16,6 @@ setup(
         "archive.tar.gz?ref=" + VERSION,
     license="GNU General Public License v3.0",
     description="Convert an image sequence to a PLY point cloud.",
-    long_description=open("README.md").read(),
     keywords="image ply converter",
     entry_points={
         "console_scripts": [
