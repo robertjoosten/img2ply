@@ -1,7 +1,7 @@
 # img2ply
 Convert an image sequence to a PLY point cloud.
 
-## Example
+![alt text](https://github.com/robertjoosten/img2ply/raw/master/data/header.png "Header")
 
 ## Installation
 Using pip **NOT SUPPORTED YET**:
@@ -51,6 +51,10 @@ img2ply.convert(
 )
 ```
 
+## Test
+Running the convert.py file in the tests folder will create a pumpkin.ply file.
+
+![alt text](https://github.com/robertjoosten/img2ply/raw/master/data/pumpkin.png "Pumpkin")
 
 
 
