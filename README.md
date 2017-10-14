@@ -14,7 +14,7 @@ If you prefer to install from source code use:
     $ python setup.py install
 
 ## Usage
-From the command line
+From the command line:
 
     $ img2ply -h
     
