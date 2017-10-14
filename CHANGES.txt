@@ -1,0 +1,8 @@
+=======
+Changes
+=======
+
+
+0.1.0 - October 14, 2017
+======================
+* Convert an image sequence to a PLY point cloud.
