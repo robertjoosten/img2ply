@@ -6,24 +6,24 @@ Convert an image sequence to a PLY point cloud.
 ## Installation
 Using pip **NOT SUPPORTED YET**:
 
-    $ pip install img2ply
+    pip install img2ply
 
 If you prefer to install from source code use:
 
-    $ cd img2ply/
-    $ python setup.py install
+    cd img2ply/
+    python setup.py install
 
 ## Usage
 From the command line:
 
-    $ img2ply -h
+    img2ply -h
     
-    $ img2ply [-h] -o PLY -bb BOUNDINGBOX BOUNDINGBOX BOUNDINGBOX
-    $   [--depthDirection DEPTHDIRECTION] [--depthInverse DEPTHINVERSE]
-    $   [--ignoreAlpha IGNOREALPHA] [--widthSamples WIDTHSAMPLES]
-    $   [--heightSamples HEIGHTSAMPLES]
-    $   [--maintainAspectRatio MAINTAINASPECTRATIO]
-    $   input
+    img2ply [-h] -o PLY -bb BOUNDINGBOX BOUNDINGBOX BOUNDINGBOX
+      [--depthDirection DEPTHDIRECTION] [--depthInverse DEPTHINVERSE]
+      [--ignoreAlpha IGNOREALPHA] [--widthSamples WIDTHSAMPLES]
+      [--heightSamples HEIGHTSAMPLES]
+      [--maintainAspectRatio MAINTAINASPECTRATIO]
+      input
 
 	input:                  path to image sequence
 	-o:                     output file path
@@ -52,7 +52,7 @@ img2ply.convert(
 ```
 
 ## Test
-Running the convert.py file in the tests folder will create a pumpkin.ply file.
+Running the tests/convert.py file will loop over all of the images in the tests/images directory and create a pumpkin.ply file.
 
 ![alt text](https://github.com/robertjoosten/img2ply/raw/master/data/pumpkin.png "Pumpkin")
 
