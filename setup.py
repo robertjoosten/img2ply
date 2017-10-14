@@ -12,8 +12,7 @@ setup(
     py_modules=["img2ply"],
     install_requires=REQUIRES,
     url="https://github.com/robertjoosten/img2ply",
-    download_url="https://github.com/robertjoosten/img2ply/repository/"
-        "archive.tar.gz?ref=" + VERSION,
+    download_url="https://github.com/robertjoosten/img2ply/archive/{0}.tar.gz".format(VERSION)
     license="GNU General Public License v3.0",
     description="Convert an image sequence to a PLY point cloud.",
     keywords="image ply converter",
