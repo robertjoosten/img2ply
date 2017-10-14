@@ -4,7 +4,7 @@ Convert an image sequence to a PLY point cloud.
 ![alt text](https://github.com/robertjoosten/img2ply/raw/master/data/header.png "Header")
 
 ## Installation
-Using pip **NOT SUPPORTED YET**:
+Using pip:
 
     pip install img2ply
 
