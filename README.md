@@ -4,7 +4,7 @@ Convert an image sequence to a PLY point cloud.
 ## Example
 
 ## Installation
-Using pip:
+Using pip **NOT SUPPORTED YET**:
 
     $ pip install img2ply
 
